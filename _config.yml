@@ -1,4 +1,4 @@
-baseurl: "/eNanak" # Nombre de tu repositorio
+baseurl: "" # Nombre de tu repositorio
 url: "https://enanak.github.io" # Tu usuario y dominio en GitHub Pages
 
 
