@@ -9,7 +9,7 @@ description: Pequeño espacio, gran sueño
 # Author Settings
 author:
   name: Daniel Proaño
-  image: perfil.jpeg
+  image: "/images/perfil.jpeg"
   say-hello: Hola, soy <strong>Daniel Proaño</strong>
   bio: Soy estudiante de Ciencias de la Computación con un enfoque en sistemas computacionales y tecnología. Me interesa profundamente la ciberseguridad y tengo habilidades analíticas para resolver problemas complejos. Me adapto rápidamente a nuevas tecnologías y destaco en la atención al detalle y la comunicación efectiva. Busco seguir desarrollándome en áreas de ciberseguridad y sistemas avanzados de computación.
 
