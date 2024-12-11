@@ -24,6 +24,7 @@ defaults:
 include:
   - _pages
 
+favicon: /favicon.ico
 
 # Tags
 tag_page_dir:         tag
