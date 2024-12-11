@@ -114,3 +114,16 @@
 
 // 4.5 Tag Page
 @import '4-layouts/tag-page';
+
+/* Cambiar el fondo del sitio */
+body {
+  background-color: #000; /* Fondo negro */
+  color: #fff; /* Texto blanco */
+}
+
+/* Opcional: Ajustar colores de otros elementos según el fondo */
+.container, .card, .navbar, footer {
+  background-color: #333; /* Fondo gris oscuro */
+  color: #fff; /* Texto blanco */
+}
+
