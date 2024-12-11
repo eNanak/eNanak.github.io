@@ -125,19 +125,19 @@
 
 /* Cambiar el fondo y el texto de todo el sitio */
 body, html {
-  background-color: #000; /* Fondo negro */
+  background-color: #333; /* Fondo negro */
   color: #fff; /* Texto blanco */
 }
 
 /* Forzar colores de fondo y texto en las principales secciones */
 .container, .navbar, .footer, .header, .hero, .content {
-  background-color: #000; /* Fondo negro */
+  background-color: #333; /* Fondo negro */
   color: #fff; /* Texto blanco */
 }
 
 /* Corregir tarjetas, cajas y otros elementos que pueden sobresalir */
 .card, .tag, .pagination, .search, .article, .post, .form-control {
-  background-color: #111; /* Gris oscuro para contraste */
+  background-color: #333; /* Gris oscuro para contraste */
   color: #fff; /* Texto blanco */
   border-color: #222; /* Borde oscuro */
 }
