@@ -115,39 +115,3 @@
 // 4.5 Tag Page
 @import '4-layouts/tag-page';
 
-
-
-
-
-
-
-
-
-/* Cambiar el fondo y el texto de todo el sitio */
-body, html {
-  background-color: #333; /* Fondo negro */
-  color: #000; /* Texto blanco */
-}
-
-
-/* Corregir tarjetas, cajas y otros elementos que pueden sobresalir */
-.card, .tag, .pagination, .search, .article, .post, .form-control {
-  background-color: #111; /* Gris oscuro para contraste */
-  color: #000; /* Texto blanco */
-  border-color: #222; /* Borde oscuro */
-}
-
-/* Ajustar enlaces */
-a {
-  color: #1e90ff; /* Azul claro */
-}
-
-a:hover {
-  color: #87cefa; /* Azul más claro al pasar el cursor */
-}
-
-/* Opcional: Quitar sombras o bordes claros */
-.card, .container, .navbar, .footer {
-  box-shadow: none;
-  border: none;
-}
