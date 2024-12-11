@@ -129,7 +129,18 @@ body, html {
   color: #fff; /* Texto blanco */
 }
 
+/* Forzar colores de fondo y texto en las principales secciones */
+.container, .navbar, .footer, .header, .hero, .content {
+  background-color: #111; /* Fondo negro */
+  color: #fff; /* Texto blanco */
+}
 
+/* Corregir tarjetas, cajas y otros elementos que pueden sobresalir */
+.card, .tag, .pagination, .search, .article, .post, .form-control {
+  background-color: #111; /* Gris oscuro para contraste */
+  color: #fff; /* Texto blanco */
+  border-color: #222; /* Borde oscuro */
+}
 
 /* Ajustar enlaces */
 a {
