@@ -169,6 +169,16 @@ body {
   }
 }
 
+
+/* Estilo para el botón ACTIVO (página actual) */
+.nav-btn.active {
+  color: var(--primary-color);
+  font-weight: bold;
+  text-decoration: underline;
+  text-underline-offset: 5px;
+  text-decoration-thickness: 2px;
+}
+
 /* Switch de tema */
 .theme-switch {
   position: relative;

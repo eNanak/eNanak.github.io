@@ -220,3 +220,15 @@ document.addEventListener("DOMContentLoaded", () => {
     history.appendChild(response);
   }
 });
+
+document.addEventListener('DOMContentLoaded', () => {
+  const currentPage = window.location.pathname.split('/').pop() || 'index.html';
+  const navButtons = document.querySelectorAll('.nav-btn');
+  
+  navButtons.forEach(button => {
+    const buttonPage = button.getAttribute('href');
+    if (buttonPage === currentPage) {
+      button.classList.add('active');
+    }
+  });
+});
