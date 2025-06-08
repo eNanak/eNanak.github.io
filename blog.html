@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="Blog - Portafolio de eNanak">
+  <link rel="icon" type="image/png" href="URL_DE_TU_FAVICON.png">
+  <title>Blog | eNanak Portfolio</title>
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="stylesheet" href="css/main.css" />
+  <link rel="stylesheet" href="css/blog.css" />
+</head>
+<body>
+
+  <nav class="top-nav">
+    <div class="nav-container">
+      <a href="index.html" class="nav-logo">eNanak</a>
+      <button class="menu-toggle" id="menu-toggle"><i class="fas fa-bars"></i></button>
+      <div class="nav-btns" id="nav-btns">
+        <a href="sobre-mi.html">Sobre Mí</a>
+        <a href="blog.html">Blog</a>
+        <a href="writeups.html">Write-Ups</a>
+        <label class="theme-switch">
+          <input type="checkbox" id="theme-toggle">
+          <span class="slider"><i class="fas fa-moon"></i><i class="fas fa-sun"></i></span>
+        </label>
+      </div>
+    </div>
+  </nav>
+
+  <main class="container">
+    <div class="page-header">
+        <h1 class="page-title">Blog</h1>
+    </div>
+    
+    <section class="blog-grid">
+        <article class="blog-card" data-aos="fade-up">
+            <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?q=80&w=800&auto=format&fit=crop" alt="Artículo sobre OSINT" class="blog-card-image">
+            <div class="blog-card-content">
+                <div class="blog-card-tags">
+                    <span class="tag">OSINT</span>
+                    <span class="blog-card-date">24 JUN, 2025</span>
+                </div>
+                <h2 class="blog-card-title">El Arte de la Inteligencia de Fuentes Abiertas</h2>
+                <p class="blog-card-excerpt">OSINT es más que buscar en Google. Es una disciplina que requiere metodología y creatividad. En este post, exploramos herramientas y técnicas para recopilar información de manera efectiva y ética.</p>
+                <a href="#" class="read-more-link">Leer más &rarr;</a>
+            </div>
+        </article>
+        <article class="blog-card" data-aos="fade-up" data-aos-delay="100">
+            <img src="https://images.unsplash.com/photo-1614064548237-096537e032f5?q=80&w=800&auto=format&fit=crop" alt="Artículo sobre Red Team" class="blog-card-image">
+            <div class="blog-card-content">
+                <div class="blog-card-tags">
+                    <span class="tag">Red Team</span>
+                    <span class="blog-card-date">15 JUN, 2025</span>
+                </div>
+                <h2 class="blog-card-title">Anatomía de una Operación Red Team</h2>
+                <p class="blog-card-excerpt">Simular un ataque real es una de las mejores formas de probar la seguridad de una organización. Desglosamos las fases de una operación Red Team, desde el reconocimiento hasta la exfiltración.</p>
+                <a href="#" class="read-more-link">Leer más &rarr;</a>
+            </div>
+        </article>
+        <article class="blog-card" data-aos="fade-up">
+            <img src="https://images.unsplash.com/photo-1585144860135-ea525a2a2275?q=80&w=800&auto=format&fit=crop" alt="Artículo sobre laboratorios" class="blog-card-image">
+            <div class="blog-card-content">
+                <div class="blog-card-tags">
+                    <span class="tag">Homelab</span>
+                    <span class="blog-card-date">02 JUN, 2025</span>
+                </div>
+                <h2 class="blog-card-title">Construyendo tu Propio Laboratorio de Ciberseguridad</h2>
+                <p class="blog-card-excerpt">No necesitas un gran presupuesto para empezar a practicar. Te guío a través de la configuración de un laboratorio en casa usando virtualización y contenedores para que puedas experimentar de forma segura.</p>
+                <a href="#" class="read-more-link">Leer más &rarr;</a>
+            </div>
+        </article>
+        <article class="blog-card" data-aos="fade-up" data-aos-delay="100">
+            <img src="https://images.unsplash.com/photo-1633989464081-16ccd7515e46?q=80&w=800&auto=format&fit=crop" alt="Artículo sobre criptografía" class="blog-card-image">
+            <div class="blog-card-content">
+                <div class="blog-card-tags">
+                    <span class="tag">Criptografía</span>
+                    <span class="blog-card-date">28 MAY, 2025</span>
+                </div>
+                <h2 class="blog-card-title">Criptografía Post-Cuántica: ¿Estamos Preparados?</h2>
+                <p class="blog-card-excerpt">La computación cuántica amenaza con romper los algoritmos criptográficos actuales. Analizamos qué es la criptografía post-cuántica y por qué debemos empezar a prestarle atención desde ahora.</p>
+                <a href="#" class="read-more-link">Leer más &rarr;</a>
+            </div>
+        </article>
+    </section>
+  </main>
+
+  <footer class="main-footer">
+    <p>&copy; 2025 eNanak. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/blog.js"></script>
+</body>
+</html>

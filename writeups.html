@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="Write-Ups - Portafolio de eNanak">
+  <link rel="icon" type="image/png" href="URL_DE_TU_FAVICON.png">
+  <title>Write-Ups | eNanak Portfolio</title>
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="stylesheet" href="css/main.css" />
+  <link rel="stylesheet" href="css/writeups.css" />
+</head>
+<body>
+
+  <nav class="top-nav">
+    <div class="nav-container">
+      <a href="index.html" class="nav-logo">eNanak</a>
+      <button class="menu-toggle" id="menu-toggle"><i class="fas fa-bars"></i></button>
+      <div class="nav-btns" id="nav-btns">
+        <a href="sobre-mi.html">Sobre Mí</a>
+        <a href="blog.html">Blog</a>
+        <a href="writeups.html">Write-Ups</a>
+        <label class="theme-switch">
+          <input type="checkbox" id="theme-toggle">
+          <span class="slider"><i class="fas fa-moon"></i><i class="fas fa-sun"></i></span>
+        </label>
+      </div>
+    </div>
+  </nav>
+
+  <main class="container writeups-container">
+    <div class="page-header">
+        <h1 class="page-title" id="writeups-title">Write-Ups</h1>
+    </div>
+
+    <section id="category-view" class="writeups-view active">
+      <div class="category-grid">
+        <div class="category-card" data-category="htb" data-aos="zoom-in">
+          <img src="https://www.hackthebox.com/images/logo-mono.svg" alt="HackTheBox Logo" class="logo">
+          <h3>HackTheBox</h3>
+        </div>
+        <div class="category-card" data-category="thm" data-aos="zoom-in" data-aos-delay="100">
+          <img src="https://tryhackme.com/img/main/thm-white.png" alt="TryHackMe Logo" class="logo">
+          <h3>TryHackMe</h3>
+        </div>
+        <div class="category-card" data-category="hmv" data-aos="zoom-in" data-aos-delay="200">
+          <i class="fas fa-server fa-3x" style="color: #ccd6f6; height: 60px; margin-bottom: 20px;"></i>
+          <h3>HackMyVM</h3>
+        </div>
+        <div class="category-card" data-category="docker" data-aos="zoom-in" data-aos-delay="300">
+          <i class="fab fa-docker fa-3x" style="color: #ccd6f6; height: 60px; margin-bottom: 20px;"></i>
+          <h3>DockerLabs</h3>
+        </div>
+      </div>
+    </section>
+
+    <section id="machine-list-view" class="writeups-view">
+        <button class="back-button" data-target="category-view">&larr; Volver a Plataformas</button>
+        <ul class="machine-list" id="machine-list-container"></ul>
+    </section>
+    
+    <section id="machine-detail-view" class="writeups-view">
+        <button class="back-button" data-target="machine-list-view">&larr; Volver a la Lista</button>
+        <div class="writeup-content" id="writeup-detail-container"></div>
+    </section>
+  </main>
+  
+  <footer class="main-footer">
+    <p>&copy; 2025 eNanak. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/writeups.js"></script>
+</body>
+</html>

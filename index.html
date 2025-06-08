@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="Portafolio de eNanak - Estudiante de Ciberseguridad y Pentester">
+  <link rel="icon" type="image/png" href="URL_DE_TU_FAVICON.png">
+  <title>eNanak | Portfolio</title>
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="stylesheet" href="css/main.css" />
+</head>
+<body>
+
+  <div class="loading-screen">
+    <div class="loading-text" id="loading-text">Inicializando sistema...</div>
+    <div class="loading-bar">
+      <div class="loading-progress" id="loading-progress"></div>
+    </div>
+  </div>
+
+  <nav class="top-nav">
+    <div class="nav-container">
+      <a href="#" class="nav-logo">eNanak</a>
+      <button class="menu-toggle" id="menu-toggle">
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="nav-btns" id="nav-btns">
+        <a href="#writeups" class="nav-btn">Write Ups</a>
+        <a href="#about" class="nav-btn">Sobre Mí</a>
+        <a href="#" class="nav-btn">Blog</a>
+        
+        <div class="social-container">
+          <button class="contact-btn">Contacto</button>
+          <div class="social-icons">
+            <a href="#" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+            <a href="#" target="_blank"><i class="fab fa-linkedin-in"></i> LinkedIn</a>
+            <a href="#" target="_blank"><i class="fab fa-twitter"></i> Twitter</a>
+            <a href="mailto:contact@enanak.io"><i class="fas fa-envelope"></i> Email</a>
+          </div>
+        </div>
+        
+        <label class="theme-switch">
+          <input type="checkbox" id="theme-toggle">
+          <span class="slider">
+            <i class="fas fa-moon"></i>
+            <i class="fas fa-sun"></i>
+          </span>
+        </label>
+      </div>
+    </div>
+  </nav>
+
+  <main class="container">
+    
+    <section class="hero-section">
+      <h1 id="typing-text" class="name">user@eNanak~$</h1>
+      <p class="quote">
+        La nostalgia es hermosa, pero no olvides vivir tu presente...<br>
+        Algún día también será un recuerdo que aprecies.
+      </p>
+    </section>
+
+    <section id="writeups" class="entries-section" data-aos="fade-up">
+      <h2 class="section-title">Entradas Recientes</h2>
+      <div class="entries-grid">
+        <div class="entry-card">
+          <img src="https://images.unsplash.com/photo-1550439062-609e1531270e?q=80&w=600&auto=format&fit=crop" alt="Código en una pantalla para write-up de XSS" class="entry-image">
+          <div class="entry-content">
+            <h3 class="entry-title">Explotación de Vulnerabilidad XSS en Aplicación Web</h3>
+            <p class="entry-description">Análisis detallado de una vulnerabilidad XSS encontrada en una aplicación web real, con demostración de explotación y medidas de mitigación.</p>
+            <a href="#" class="entry-link">Leer más <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+        
+        <div class="entry-card">
+          <img src="https://images.unsplash.com/photo-1515879218367-8466d910aaa4?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Gráfico de red abstracto para write-up de CTF" class="entry-image">
+          <div class="entry-content">
+            <h3 class="entry-title">CTF - Solución de Reto de Criptografía</h3>
+            <p class="entry-description">Walkthrough completo de un reto de criptografía en un CTF, explicando el proceso de pensamiento y las herramientas utilizadas.</p>
+            <a href="#" class="entry-link">Leer más <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="divider"></div>
+
+    <section id="about" class="profile-section" data-aos="fade-up" data-aos-delay="200">
+      <div class="profile-image-container">
+          <div class="profile-image" style="background-image: url('https://via.placeholder.com/200');"></div>
+      </div>
+      <div class="profile-about">
+        <p>Soy un estudiante de Ciencias de la Computación con un enfoque en sistemas computacionales y tecnología. Me interesa profundamente la ciberseguridad y tengo habilidades analíticas para resolver problemas complejos. Me adapto rápidamente a nuevas tecnologías y destaco en la atención al detalle y la comunicación efectiva. Busco seguir desarrollándome en áreas de ciberseguridad y sistemas avanzados de computación.</p>
+        <a href="#writeups" class="read-more-btn">Leer mas...</a>
+      </div>
+    </section>
+    
+  </main>
+  
+  <div id="terminal-overlay">
+    <button class="close-terminal" title="Cerrar terminal (ESC)">&times;</button>
+    <div id="terminal-content">
+      <p> Bienvenido al terminal interactivo</p>
+      <p> Escribe 'help' para ver la lista de comandos</p>
+      <p> Escribe 'exit' o para salir</p>
+      <div id="terminal-history"></div>
+      <div class="terminal-input-line">
+        <span class="prompt-user">user@eNanak</span><span class="prompt-symbol">~$</span>
+        <input type="text" id="terminal-command" autocomplete="off" autofocus />
+      </div>
+    </div>
+  </div>
+
+  <footer class="main-footer">
+    <p>&copy; 2025 eNanak. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
